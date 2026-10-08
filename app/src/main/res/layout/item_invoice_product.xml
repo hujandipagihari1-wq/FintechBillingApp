@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+    <!-- Nama Produk -->
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk"
+        android:textColor="#172033"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <!-- Qty dan Harga -->
+    <TextView
+        android:id="@+id/tvItemQtyPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="2 × Rp75.000"
+        android:textColor="#697386"
+        android:textSize="13sp" />
+
+    <!-- Subtotal -->
+    <TextView
+        android:id="@+id/tvItemSubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rp150.000"
+        android:textColor="#172033"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Garis pemisah -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:background="#E5E7EB" />
+
+</LinearLayout>
